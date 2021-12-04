@@ -38,14 +38,26 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\KeyItemPuzzle.cs" />
      <Compile Include="Assets\Scripts\Collidable.cs" />
+     <Compile Include="Assets\Scripts\ObjectHitDetection.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\LogEnemy.cs" />
+     <Compile Include="Assets\Scripts\ObjectDestruction.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Knockback.cs" />
+     <Compile Include="Assets\Scripts\FloatingText.cs" />
      <Compile Include="Assets\Scripts\Portal.cs" />
      <Compile Include="Assets\Scripts\Collectable.cs" />
+     <Compile Include="Assets\Scripts\Sign.cs" />
+     <Compile Include="Assets\Scripts\Switch.cs" />
+     <Compile Include="Assets\Scripts\Hit.cs" />
+     <Compile Include="Assets\Scripts\FloatingTextManager.cs" />
      <Compile Include="Assets\Scripts\Chest.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
-     <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\FloatingText.cs" />
-     <Compile Include="Assets\Scripts\FloatingTextManager.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\FloatValue.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\Signal.cs" />
+     <Compile Include="Assets\Scripts\SignalListener.cs" />
+     <Compile Include="Assets\Scripts\HeartManager.cs" />
      <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
