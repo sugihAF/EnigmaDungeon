@@ -7,6 +7,10 @@ TagManager:
   - breakable
   - enemy
   - weapon
+  - Spike3
+  - Spike1
+  - Spike2
+  - Spike4
   layers:
   - Default
   - TransparentFX
