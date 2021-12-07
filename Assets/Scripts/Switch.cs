@@ -2,9 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum switchCondition{
+    pressed,
+    not
+}
 public class Switch : Collidable
 {
     public GameObject otherObject;
+    public switchCondition currentCondition;
     public Sprite otherObjectChangeSprite;
     public Sprite switchOnSprite;
     BoxCollider2D box2d;
@@ -17,6 +22,7 @@ public class Switch : Collidable
         {
             GetComponent<SpriteRenderer>().sprite = switchOnSprite;
             SwitchInteract();
+            currentCondition = switchCondition.pressed;
         }
            
     }
