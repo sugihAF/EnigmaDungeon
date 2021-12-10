@@ -7,7 +7,14 @@ TagManager:
   - breakable
   - enemy
   - weapon
+<<<<<<< HEAD
   - keyItem
+=======
+  - Spike3
+  - Spike1
+  - Spike2
+  - Spike4
+>>>>>>> b626f4806877c5a5e139fe6971bb335a1a8b1b69
   layers:
   - Default
   - TransparentFX
