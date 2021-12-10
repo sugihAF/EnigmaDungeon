@@ -73,7 +73,7 @@ TextureImporter:
     second: 0x72_DungeonTilesetII_v1.3_22
   - first:
       213: -7829486336716933049
-    second: 0x72_DungeonTilesetII_v1.3_23
+    second: dagger
   - first:
       213: 6900771405990404018
     second: 0x72_DungeonTilesetII_v1.3_24
@@ -2146,7 +2146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.3_23
+      name: dagger
       rect:
         serializedVersion: 2
         x: 288
