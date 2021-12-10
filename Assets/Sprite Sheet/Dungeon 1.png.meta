@@ -751,7 +751,7 @@ TextureImporter:
     second: 0x72_DungeonTilesetII_v1.3_248
   - first:
       213: -438956851338452948
-    second: 0x72_DungeonTilesetII_v1.3_249
+    second: spike_off
   - first:
       213: 8772629337655136847
     second: 0x72_DungeonTilesetII_v1.3_250
@@ -6892,7 +6892,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.3_249
+      name: spike_off
       rect:
         serializedVersion: 2
         x: 16

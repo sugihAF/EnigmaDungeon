@@ -9,7 +9,7 @@ public class Scene1Puzzle_a : MonoBehaviour
 
     private void Update()
     {
-        if(!enemies[0].active && !enemies[1].active && !enemies[2].active){
+        if(!enemies[0].activeSelf && !enemies[1].activeSelf && !enemies[2].activeSelf){
             switchButton.SetActive(true);
         }
     }
