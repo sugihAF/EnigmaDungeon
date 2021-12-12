@@ -9,12 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: fd16f4f371d88e04c909673300564207
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/Scene 1.unity
-    guid: 929600482d35ea947bc1b468f339bee8
+    guid: 6d4ec21e813c5f044b2df6653df37e55
+  - enabled: 1
+    path: Assets/Scenes/Scene Lemon.unity
+    guid: c5eba239bf6151143ac8744024e0d9f7
+  - enabled: 1
+    path: Assets/Scenes/Scene Bahrul.unity
+    guid: 9f6e78c34b694d7488946e75129752c0
   - enabled: 1
     path: Assets/Scenes/Scene 2.unity
     guid: 001091ff9b10f4645bcf2b54fcd96262
+  - enabled: 1
+    path: Assets/Scenes/Scene 3.unity
+    guid: 929600482d35ea947bc1b468f339bee8
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

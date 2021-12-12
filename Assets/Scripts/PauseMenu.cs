@@ -27,11 +27,13 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void Resume(){
+        FindObjectOfType<SoundManager>().PlaySound("unpause");
         pauseUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
     void Pause(){
+        FindObjectOfType<SoundManager>().PlaySound("pause");
         pauseUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
@@ -48,5 +50,11 @@ public class PauseMenu : MonoBehaviour
         playerHealth.RuntimeValue = playerHealth.initialValue;
         gameOverUI.SetActive(false);
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+    }
+    public void Finish(){
+        playerHealth.RuntimeValue = playerHealth.initialValue;
+        gameOverUI.SetActive(false);
+        PlayerPrefs.SetInt("SavedScene",1);
+        SceneManager.LoadScene(0);
     }
 }

@@ -7,7 +7,9 @@ public class MainMenu : MonoBehaviour
 {
     private int sceneToContinue;
     public FloatValue currentPlayerHearts;
+    public FloatValue playerHealth;
     public void PlayGame(){
+        playerHealth.RuntimeValue = playerHealth.initialValue;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
     public void ExitGame(){

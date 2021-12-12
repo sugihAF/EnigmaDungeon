@@ -11,7 +11,7 @@ public enum PlayerState{
 }
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed;
+    private float moveSpeed = 5f;
     public PlayerState currentState;
 
     public Rigidbody2D rb;
@@ -48,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
     {
         animator.SetBool("Attacking", true);
         currentState = PlayerState.attack;
+        FindObjectOfType<SoundManager>().PlaySound("attack");
         yield return null;
         animator.SetBool("Attacking", false);
         yield return new WaitForSeconds(.3f);
